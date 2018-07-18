@@ -1,0 +1,29 @@
+{
+  "name": "express-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "test": "nodemon --exec jasmine ./build/server.spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/cors": "^2.8.4",
+    "@types/es6-shim": "^0.31.37",
+    "@types/express": "^4.16.0",
+    "@types/mongodb": "^3.1.1",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "mongodb": "^3.1.1",
+    "nodemon": "^1.17.5",
+    "request": "^2.87.0",
+    "typescript": "^2.9.2"
+  },
+  "devDependencies": {
+    "jasmine": "^3.1.0"
+  }
+}
